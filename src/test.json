@@ -1,0 +1,53 @@
+
+    "properties": {
+      "id": {
+        "$id": "#root/items/id",
+        "title": "Id",
+        "type": "integer",
+        "examples": [
+          0
+        ],
+        "default": 0
+      },
+      "bannerImage": {
+        "$id": "#root/items/bannerImage",
+        "title": "Bannerimage",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      },
+      "link": {
+        "$id": "#root/items/link",
+        "title": "Link",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      },
+      "name": {
+        "$id": "#root/items/name",
+        "title": "Name",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      },
+      "type": {
+        "$id": "#root/items/type",
+        "title": "Type",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "main"
+        ],
+        "pattern": "^.*$"
+      }
+    }
+
